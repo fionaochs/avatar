@@ -1,7 +1,8 @@
-import React from 'react';
+import React  from 'react';
 import PropTypes from 'prop-types';
 
-const Detail = ({ name, allies, enemies, affiliation, image }) => (
+
+const Detail = ({ image, allies, enemies, affiliation, name }) =>  (
   <section>
     <h3>{name}</h3>
     <img src={image} />
@@ -11,8 +12,10 @@ const Detail = ({ name, allies, enemies, affiliation, image }) => (
   </section>
 );
 
+
 Detail.propTypes = {
   name: PropTypes.string.isRequired,
+  id: PropTypes.string.isRequired,
   allies: PropTypes.string.isRequired,
   affiliation: PropTypes.string.isRequired,
   enemies: PropTypes.string.isRequired,
