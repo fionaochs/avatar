@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List matches a List snapshot 1`] = `
+<ul>
+  <li
+    key="1"
+  >
+    <Detail
+      0={
+        Object {
+          "affiliation": "air",
+          "allies": "all",
+          "enemies": "fire nation",
+          "id": 1,
+          "image": "url",
+          "name": "Ang",
+        }
+      }
+    />
+  </li>
+</ul>
+`;
